@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <!-- Calendario, forma extensa: -->
+    <form action="">
+        <label for="hora">
+            <span>Hora</span>
+            <input type="time" name="hora" id="hora" />
+        </label>
+        <label for="dia">
+            <span>Día</span>
+            <input type="date" name="dia" id="dia" />
+        </label>
+        <label for="semana">
+            <span>Semana</span>
+            <input type="week" name="semana" id="semana" />
+        </label>
+        <label for="mes">
+            <span>Mes</span>
+            <input type="month" name="mes" id="mes" />
+        </label>
+        <input type="submit">
+    </form>
+    <!-- Calendario, forma más simple: -->
+    <form action="">
+        <label for="calendary">
+            <span></span>
+            <input type="datetime-local" name="calendary" id="calendary">
+        </label>
+        <input type="submit">
+    </form>
+    <!-- Lista con todos los inputs https://developer.mozilla.org/es/docs/Web/HTML/Element/input -->
+</body>
+</html>
