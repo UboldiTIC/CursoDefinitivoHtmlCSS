@@ -1,0 +1,17 @@
+/*Cómo llamamos los elementos para aplicar estilo*/
+/*1 - usando el elemento directamente*/
+p {
+    background-color: black;
+}
+
+/*2 - Creando una clase*/
+.parrafo {
+    color: red;
+}
+
+/*3- ID*/
+#texto {
+    color: yellow;
+    background-color: blue;
+    font-size: 24px;
+}
