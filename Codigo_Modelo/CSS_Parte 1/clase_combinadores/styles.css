@@ -1,0 +1,26 @@
+
+/* Hermano Cercano o Adjacent sibling: 
+El + indica que es a todo p que esté cerca de h2 */
+
+/* h2 + p {
+    color: red;
+} */
+
+/* Hermano General o General sibling:
+El ~ indica que se va a aplicar a todos los p que tengan a un h2 como hermano general*/
+
+/* h2 ~ p {
+    color: red;
+} */
+
+/* Child o hijo: div es el padre de > lo que valla de este lado*/
+
+/* div > p {
+    color: red;
+} */
+
+/* Descendiente: aplica a todas las p que esten dentro de un div*/
+
+div p {
+    color: red;
+}
