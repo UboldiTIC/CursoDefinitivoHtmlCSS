@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+/* No depende de su padre directo, 
+1 rem siempre va a ser el tamaño de 
+referencia de la etiqueta html*/
+
+/* Configurando la etiqueta html en 62.5%,
+logramos que 1 rem sea igual a 1px. Entonces,
+si quiero 16px debo poner 1.6rem. 
+Si quiero 22px debo poner 2.2rem. */
+
+main div {
+    font-size: 1.6rem;
+}
+
+/* Como buena práctica debemos reemplazar los pixeles por rem */

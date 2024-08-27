@@ -1,0 +1,14 @@
+.text-container {
+    font-size: 1.5em;
+}
+.text-container div{
+    font-size: 1.5em;
+}
+
+/* em = tamaño por defecto * 1.5 
+16px*1.5em = 24
+Toma la medida del padre directo:
+24px*1.5em = 36
+
+Esto se vuelve un problema en proyectos grandes.
+*/
