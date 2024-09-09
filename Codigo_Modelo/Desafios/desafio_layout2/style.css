@@ -24,13 +24,14 @@ body {
     border: 0.2rem solid black;
 }
 
+/* Header: */
+
 .container_header {
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: black;
     height: 15vh;
-    
 }
 
 .box_header1 {
@@ -61,42 +62,29 @@ body {
     padding-right: 20px;
 }
 
+/* Main Section: */
+
 .container_main {
     display: flex;
-    flex-direction: column;
-    background-color: grey;
+    justify-content:left;
+    align-items: center;
     height: 70vh;
-    
+    background-image: url(/Codigo_Modelo/Desafios/desafio_layout2/pics/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.box_main1 {
+
+.container_main li {
+    list-style: none;
+    height: 150px;
+    width: 250px;
     margin-top: 3px;
     margin-left: 30px;
-    background-color: aqua;
-    width: 250px;
-    height: 150px;
+    margin-bottom: 3px;
 }
-.box_main2 {
-    margin-top: 3px;
-    margin-left: 30px;
-    background-color: aquamarine;
-    width: 250px;
-    height: 150px;
-}
-.box_main3 {
-    margin-top: 3px;
-    margin-left: 30px;
-    background-color: aqua;
-    width: 250px;
-    height: 150px;
-}
-.box_main4 {
-    margin-top: 3px;
-    margin-left: 30px;
-    margin-bottom: 8px;
-    background-color: aquamarine;
-    width: 250px;
-    height: 150px;
-}
+
+/* Footer: */
 
 .container_footer {
     display: flex;
