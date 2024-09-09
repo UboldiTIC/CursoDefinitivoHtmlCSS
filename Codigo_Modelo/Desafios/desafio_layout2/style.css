@@ -31,6 +31,7 @@ body {
     flex-direction: row;
     align-items: center;
     background-color: black;
+    width: 100vw;
     height: 15vh;
 }
 
@@ -68,6 +69,7 @@ body {
     display: flex;
     justify-content:left;
     align-items: center;
+    width: 100vw;
     height: 70vh;
     background-image: url(/Codigo_Modelo/Desafios/desafio_layout2/pics/fondo.jpg);
     background-repeat: no-repeat;
@@ -90,6 +92,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: black;
+    width: 100vw;
     height: 15vh;
 
    
