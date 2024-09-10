@@ -10,12 +10,13 @@ html {
 
 body {
     font-size: 1.6rem;
+    
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    min-width: 40rem;
+    
 }
 
 .box {
@@ -33,6 +34,7 @@ body {
     background-color: black;
     width: 100vw;
     height: 15vh;
+
 }
 
 .box_header1 {
